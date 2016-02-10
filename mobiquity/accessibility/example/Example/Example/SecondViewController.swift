@@ -10,9 +10,17 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var sectionTitle: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        sectionTitle.image = StyleKitName.imageOfSecondSectoinImage
     }
 
     override func didReceiveMemoryWarning() {

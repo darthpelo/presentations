@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D927B98E1D63502F00E9C6A5 /* NodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A088E21D59D21500F4161F /* NodeViewController.swift */; };
+		D927B98F1D63503000E9C6A5 /* NodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A088E21D59D21500F4161F /* NodeViewController.swift */; };
+		D927B9901D63516F00E9C6A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A088B61D59D1C100F4161F /* ViewController.swift */; };
+		D927B9911D63517000E9C6A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A088B61D59D1C100F4161F /* ViewController.swift */; };
+		D927B9921D6355DD00E9C6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A088B81D59D1C100F4161F /* Main.storyboard */; };
 		D9A088B51D59D1C100F4161F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A088B41D59D1C100F4161F /* AppDelegate.swift */; };
 		D9A088B71D59D1C100F4161F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A088B61D59D1C100F4161F /* ViewController.swift */; };
 		D9A088BA1D59D1C100F4161F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A088B81D59D1C100F4161F /* Main.storyboard */; };
@@ -251,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D927B9921D6355DD00E9C6A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D927B9901D63516F00E9C6A5 /* ViewController.swift in Sources */,
+				D927B98E1D63502F00E9C6A5 /* NodeViewController.swift in Sources */,
 				D9A088CA1D59D1C100F4161F /* MemoryLeakTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D927B9911D63517000E9C6A5 /* ViewController.swift in Sources */,
+				D927B98F1D63503000E9C6A5 /* NodeViewController.swift in Sources */,
 				D9A088D51D59D1C200F4161F /* MemoryLeakUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

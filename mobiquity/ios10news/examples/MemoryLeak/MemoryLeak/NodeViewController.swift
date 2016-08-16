@@ -10,6 +10,7 @@ import UIKit
 
 class NodeViewController: UIViewController {
     
+    @IBOutlet weak var closeButton: UIButton!
     let unwind = "unwindToMain"
     var nameList = UYLNode<String>(data: "Tom")
     

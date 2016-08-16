@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" id="BYZ-38-t0r" customClass="ViewController" customModule="MemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -43,7 +43,7 @@
         <!--Node View Controller-->
         <scene sceneID="nPi-6Z-DGu">
             <objects>
-                <viewController id="OM7-Uu-JSA" customClass="NodeViewController" customModule="MemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NodeVC" id="OM7-Uu-JSA" customClass="NodeViewController" customModule="MemoryLeak" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="chb-OM-ttm"/>
                         <viewControllerLayoutGuide type="bottom" id="VKN-q0-WYx"/>
@@ -66,6 +66,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="ZmY-81-tiV" id="J6l-W6-nZh"/>
                         <segue destination="da8-Sd-hJc" kind="unwind" identifier="unwindToMain" unwindAction="unwindToMenu:" id="Rpv-2n-2Mf"/>
                     </connections>
                 </viewController>

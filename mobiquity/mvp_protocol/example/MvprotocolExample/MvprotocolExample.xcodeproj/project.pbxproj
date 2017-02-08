@@ -13,6 +13,9 @@
 		D937064A1E4A7A8E00523A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93706491E4A7A8E00523A86 /* Assets.xcassets */; };
 		D937064D1E4A7A8E00523A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D937064B1E4A7A8E00523A86 /* LaunchScreen.storyboard */; };
 		D93706581E4A7A8E00523A86 /* MvprotocolExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93706571E4A7A8E00523A86 /* MvprotocolExampleTests.swift */; };
+		D93706631E4A7EA200523A86 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93706621E4A7EA200523A86 /* Presenter.swift */; };
+		D93706651E4A83D700523A86 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93706641E4A83D700523A86 /* Model.swift */; };
+		D93706671E4A83F700523A86 /* ModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93706661E4A83F700523A86 /* ModelService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D93706531E4A7A8E00523A86 /* MvprotocolExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvprotocolExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93706571E4A7A8E00523A86 /* MvprotocolExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvprotocolExampleTests.swift; sourceTree = "<group>"; };
 		D93706591E4A7A8E00523A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93706621E4A7EA200523A86 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		D93706641E4A83D700523A86 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D93706661E4A83F700523A86 /* ModelService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				D93706491E4A7A8E00523A86 /* Assets.xcassets */,
 				D937064B1E4A7A8E00523A86 /* LaunchScreen.storyboard */,
 				D937064E1E4A7A8E00523A86 /* Info.plist */,
+				D93706621E4A7EA200523A86 /* Presenter.swift */,
+				D93706641E4A83D700523A86 /* Model.swift */,
+				D93706661E4A83F700523A86 /* ModelService.swift */,
 			);
 			path = MvprotocolExample;
 			sourceTree = "<group>";
@@ -201,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93706631E4A7EA200523A86 /* Presenter.swift in Sources */,
 				D93706451E4A7A8E00523A86 /* ViewController.swift in Sources */,
 				D93706431E4A7A8E00523A86 /* AppDelegate.swift in Sources */,
+				D93706651E4A83D700523A86 /* Model.swift in Sources */,
+				D93706671E4A83F700523A86 /* ModelService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

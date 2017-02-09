@@ -41,7 +41,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTh-9C-TKW">
-                                <rect key="frame" x="120" y="316" width="80" height="54"/>
+                                <rect key="frame" x="120" y="278" width="80" height="54"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="QrP-V4-Ms9"/>
@@ -58,7 +58,7 @@
                             <constraint firstItem="Xjr-jq-6YH" firstAttribute="top" secondItem="Tsu-vb-deN" secondAttribute="bottom" constant="44" id="Jtz-Oj-xCx"/>
                             <constraint firstItem="Xjr-jq-6YH" firstAttribute="centerX" secondItem="Tsu-vb-deN" secondAttribute="centerX" id="PbZ-Bh-fU8"/>
                             <constraint firstItem="Tsu-vb-deN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="TGh-J1-qYD"/>
-                            <constraint firstItem="xTh-9C-TKW" firstAttribute="top" secondItem="Xjr-jq-6YH" secondAttribute="bottom" constant="88" id="UaA-3p-ZQh"/>
+                            <constraint firstItem="xTh-9C-TKW" firstAttribute="top" secondItem="Xjr-jq-6YH" secondAttribute="bottom" constant="50" id="UaA-3p-ZQh"/>
                             <constraint firstItem="Tsu-vb-deN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="VtG-kw-vcb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tsu-vb-deN" secondAttribute="trailing" constant="80" id="YJA-yp-o2T"/>
                             <constraint firstItem="xTh-9C-TKW" firstAttribute="centerX" secondItem="Xjr-jq-6YH" secondAttribute="centerX" id="aDm-ig-zyA"/>

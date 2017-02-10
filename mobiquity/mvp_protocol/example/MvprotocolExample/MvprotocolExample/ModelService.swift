@@ -20,9 +20,10 @@ final class ModelService {
         return Singleton.instance
     }
     
-    func updateModel(userName: Bool, passWord: Bool) {
+    func updateModel(userName: Bool, passWord: Bool, userNameValid isValid: Bool) {
         model.usernameIsEmpty = userName
         model.passwordIsEmpty = passWord
+        model.usernameIsValid = isValid
     }
     
     func update(userName: Bool) {
@@ -33,11 +34,19 @@ final class ModelService {
         model.passwordIsEmpty = passWord
     }
     
+    func update(usernameValid: Bool) {
+        model.usernameIsValid = usernameValid
+    }
+    
     func userName() -> Bool {
         return model.usernameIsEmpty
     }
     
     func passWord() -> Bool {
         return model.passwordIsEmpty
+    }
+    
+    func userNameIsValid() -> Bool {
+        return model.usernameIsValid
     }
 }

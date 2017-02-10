@@ -9,6 +9,7 @@
 import Foundation
 
 struct Model {
+    var usernameIsValid = true
     var usernameIsEmpty = true
     var passwordIsEmpty = true
 }

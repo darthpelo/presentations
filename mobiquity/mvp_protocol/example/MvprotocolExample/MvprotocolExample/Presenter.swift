@@ -18,7 +18,7 @@ struct Presenter {
     
     func setupView() {
         view?.button(isEnable: false)
-        ModelService.sharedInstance.updateModel(userName: true, passWord: true)
+        ModelService.sharedInstance.updateModel(userName: true, passWord: true, userNameValid: false)
     }
     
     func update(username status: Bool?) {
@@ -28,14 +28,17 @@ struct Presenter {
     
     func update(password status: Bool?) {
         ModelService.sharedInstance.update(passWord: status ?? true)
-        view?.button(isEnable: !(ModelService.sharedInstance.userName() || ModelService.sharedInstance.passWord()))
+//        view?.button(isEnable: !(ModelService.sharedInstance.userName() || ModelService.sharedInstance.passWord()))
+        view?.button(isEnable: (ModelService.sharedInstance.userNameIsValid()
+            && !(ModelService.sharedInstance.userName() || ModelService.sharedInstance.passWord()) ))
     }
     
     func check(text: String?) {
         let valid = Validator().isValid(text ?? "")
-        
+        ModelService.sharedInstance.update(usernameValid: valid)
         view?.email(isValid: valid)
-        view?.button(isEnable: (valid && !(ModelService.sharedInstance.userName() || ModelService.sharedInstance.passWord()) ))
+        view?.button(isEnable: (ModelService.sharedInstance.userNameIsValid()
+            && !(ModelService.sharedInstance.userName() || ModelService.sharedInstance.passWord()) ))
     }
 }
 
